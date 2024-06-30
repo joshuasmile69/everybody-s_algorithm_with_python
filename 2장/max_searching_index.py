@@ -6,8 +6,8 @@ def max_searching_index(a):
     #첫번째 항을 a의 최댓값으로 가정(즉 리스트의 0번째 index)
     for i in range(1, n):
     #1(즉 리스트의 2번째부터) n-1(즉 리스트의 n째 항(마지막항))까지 범위의 i에 대하여
-        if max_a<=a[i]:
-        #만일 가정한 최댓값보다 리스트 a의 i번째 항이 더 큰 값이라면
+        if a[max_a]<=a[i]:
+        #만일 가정한 최댓값보다 리스트 a의 i번째 항이 더 큰 값이라면(이거 틀렸었음! 주의!)
             max_a=i
             #최댓값을 a의 i번째 항으로 교체, index도 그에 맞게 변경
     return max_a
