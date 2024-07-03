@@ -14,7 +14,7 @@ def sequential_search(a, b, x):
 
 
 a=[5, 3, 1, 23, 2, 1, 6, 7, 8, 13, 11, 83, 9]
-b=["Anasatasia", "Tom", "Eudokia", "Clementia", "Harold", "Richard", "Blanche", "Alexander", "Raynold", "Anna", "Patricia", "Franz", "Nancy"]
+b=["Anastasia", "Tom", "Eudokia", "Clementia", "Harold", "Richard", "Blanche", "Alexander", "Raynold", "Anna", "Patricia", "Franz", "Nancy"]
 print(sequential_search(a, b, 1))
 print(sequential_search(a, b, 13))
 print(sequential_search(a, b, 300))
